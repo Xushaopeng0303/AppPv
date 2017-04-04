@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/id_fragment_b_01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tab_b_fragment_01_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/id_fragment_b_02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tab_b_fragment_01_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/id_fragment_b_03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tab_b_fragment_03_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/id_b_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

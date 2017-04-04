@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:abc="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.xsp.library.view.NoScrollViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_tab"
+        android:orientation="horizontal">
+
+        <com.xsp.pv.view.ImageTextView
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            abc:c_icon="@mipmap/ic_menu_start_conversation"
+            abc:c_text="@string/tab_one_a"
+            abc:c_text_size="12sp"/>
+
+        <com.xsp.pv.view.ImageTextView
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            abc:c_icon="@mipmap/ic_menu_friendslist"
+            abc:c_text="@string/tab_two_b"
+            abc:c_text_size="12sp"/>
+
+        <com.xsp.pv.view.ImageTextView
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            abc:c_icon="@mipmap/ic_menu_emoticons"
+            abc:c_text="@string/tab_three_c"
+            abc:c_text_size="12sp"/>
+
+        <com.xsp.pv.view.ImageTextView
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            abc:c_icon="@mipmap/ic_menu_friendslist"
+            abc:c_text="@string/tab_four_d"
+            abc:c_text_size="12sp"/>
+    </LinearLayout>
+
+</LinearLayout>

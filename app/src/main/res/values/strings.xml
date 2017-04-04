@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppPv</string>
+
+    <!-- 首页四个Tab -->
+    <string name="tab_one_a">A界面</string>
+    <string name="tab_two_b">B界面</string>
+    <string name="tab_three_c">C界面</string>
+    <string name="tab_four_d">D界面</string>
+
+    <string name="tab_b_fragment_01_title">第一个</string>
+    <string name="tab_b_fragment_02_title">第二个</string>
+    <string name="tab_b_fragment_03_title">第三个</string>
+</resources>

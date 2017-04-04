@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/id_fragment_c_01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tab_b_fragment_01_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/id_fragment_c_02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tab_b_fragment_01_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/id_fragment_c_03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tab_b_fragment_03_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <com.xsp.library.view.NoScrollViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>
